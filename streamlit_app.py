@@ -8,7 +8,7 @@ st.write(
 show_popup1 = st.checkbox("GPT Model Used")
 model= "gpt-4-turbo"
 if show_popup1:
-    st.code("MOdel used is =\n", model , language="text")
+    st.code(f"Model used is =\n{model}", language="text")
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
